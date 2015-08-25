@@ -15,3 +15,9 @@ requirejs.config({
     }
   }
 });
+
+requirejs(
+  ["draw-deck", "new-game", "start", "battle", "draw-card", "new-battle"],
+  function(drawDeck, newGame, start, battle, drawCard, newBattle) {
+
+});

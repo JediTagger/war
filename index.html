@@ -8,12 +8,43 @@
   </head>
 
   <body>
-  <h1>WAR</h1>
-  <button id="start">Start new war</button>
-  <div>Player 1 Score</div>
-  <div id="p1score"></div>
-  <div>Player 2 Score</div>
-  <div id="p2score"></div>
-  <script data-main="javascripts/main" src="./lib/bower_components/requirejs/require.js"></script>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 border center">
+          <h1>WAR</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 border center">
+          <button id="start">Start new war</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 border center">
+          <div>Player 1 Score</div>
+          <div id="p1score"></div>
+        </div>
+        <div class="col-md-6 border center">
+          <div>Player 2 Score</div>
+          <div id="p2score"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 border center">
+          <button id="battle">Start new battle</button>
+        </div>
+      </div>
+    </div>
+
+    <script data-main="javascripts/main" src="./lib/bower_components/requirejs/require.js"></script>
   </body>
 </html>
